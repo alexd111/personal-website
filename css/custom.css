@@ -3,7 +3,7 @@ h1, h2, h3 {
     color: #555;
 }
 
-p {
+p, ul {
     font-family: 'PT Serif', serif;
     font-size: 15px;
     color: #555;
