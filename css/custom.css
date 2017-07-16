@@ -1,19 +1,36 @@
 h1, h2, h3 {
     font-family: 'PT Sans', sans-serif;
+    color: #555;
 }
 
 p {
     font-family: 'PT Serif', serif;
     font-size: 15px;
+    color: #555;
 }
 
 .jumbotron {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url('../img/background-compressed.jpg');
     background-repeat:no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size:cover;
     color: white;
+}
+
+#banner-text {
+    color: white;
+}
+
+#location-text {
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+}
+
+#avatar {
+    height: 20px;
+    width: 20px;
 }
