@@ -9,15 +9,31 @@ p {
     color: #555;
 }
 
-.jumbotron {
+.navbar-inverse {
+    background-color: rgba(0, 48, 73, 0.7)
+}
+
+.bg {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ), url('../img/background-compressed.jpg');
+    position: fixed;
+    width: 100%;
+    height: 350px; /*same height as jumbotron */
+    top:0;
+    left:0;
+    z-index: -1;
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
+}
+
+.jumbotron {
+    height: 350px;
     color: white;
+    text-shadow: #444 0 1px 1px;
+    background:transparent;
 }
 
 #banner-text {
