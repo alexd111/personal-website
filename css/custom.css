@@ -1,0 +1,19 @@
+h1, h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('../img/background.jpg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    color: white;
+}
