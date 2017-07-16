@@ -11,7 +11,7 @@ p {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('../img/background.jpg');
+    ), url('../img/background-compressed.jpg');
     background-repeat:no-repeat;
     background-position: center center;
     background-size:cover;
